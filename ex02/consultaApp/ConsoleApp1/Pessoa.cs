@@ -10,8 +10,10 @@ namespace ConsoleApp1
     internal class Pessoa
     {
         private string nome;
-        private string email;  
+        private string email;
         private string endereco;
+
+        
         public void setNome(string nome)
         {
             this.nome = nome;
@@ -20,11 +22,22 @@ namespace ConsoleApp1
         {
             return this.nome;   
         }
+        public void setEmail(string email)
+        {
+            this.email = email;
+        }
         public  string getEmail()
         {
             return this.email;
         }
-        
+        public void setEndereco(string endereco)
+        {
+            this.endereco = endereco;
+        }
+        public string getEndereco()
+        {
+            return this.endereco;
+        }
     }
     
 }
