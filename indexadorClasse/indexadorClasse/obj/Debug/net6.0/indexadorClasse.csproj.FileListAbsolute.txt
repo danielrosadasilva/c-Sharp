@@ -1,0 +1,15 @@
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\bin\Debug\net6.0\indexadorClasse.exe
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\bin\Debug\net6.0\indexadorClasse.deps.json
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\bin\Debug\net6.0\indexadorClasse.runtimeconfig.json
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\bin\Debug\net6.0\indexadorClasse.dll
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\bin\Debug\net6.0\indexadorClasse.pdb
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.AssemblyInfo.cs
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.dll
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\refint\indexadorClasse.dll
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.pdb
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\indexadorClasse.genruntimeconfig.cache
+C:\Users\danie\source\repos\indexadorClasse\indexadorClasse\obj\Debug\net6.0\ref\indexadorClasse.dll

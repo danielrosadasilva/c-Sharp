@@ -1,0 +1,15 @@
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\bin\Debug\net6.0\arrayDeEstruturas.exe
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\bin\Debug\net6.0\arrayDeEstruturas.deps.json
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\bin\Debug\net6.0\arrayDeEstruturas.runtimeconfig.json
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\bin\Debug\net6.0\arrayDeEstruturas.dll
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\bin\Debug\net6.0\arrayDeEstruturas.pdb
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.AssemblyInfo.cs
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.dll
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\refint\arrayDeEstruturas.dll
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.pdb
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\arrayDeEstruturas.genruntimeconfig.cache
+C:\Users\danie\source\repos\arrayDeEstruturas\arrayDeEstruturas\obj\Debug\net6.0\ref\arrayDeEstruturas.dll

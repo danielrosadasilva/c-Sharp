@@ -1,0 +1,15 @@
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\bin\Debug\net6.0\classesAbstrata.exe
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\bin\Debug\net6.0\classesAbstrata.deps.json
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\bin\Debug\net6.0\classesAbstrata.runtimeconfig.json
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\bin\Debug\net6.0\classesAbstrata.dll
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\bin\Debug\net6.0\classesAbstrata.pdb
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.AssemblyInfo.cs
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.dll
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\refint\classesAbstrata.dll
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.pdb
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\classesAbstrata.genruntimeconfig.cache
+C:\Users\danie\source\repos\classesAbstrata\classesAbstrata\obj\Debug\net6.0\ref\classesAbstrata.dll
