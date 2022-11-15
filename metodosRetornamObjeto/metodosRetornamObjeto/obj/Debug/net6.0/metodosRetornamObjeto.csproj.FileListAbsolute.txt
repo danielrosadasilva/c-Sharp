@@ -1,0 +1,15 @@
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\bin\Debug\net6.0\metodosRetornamObjeto.exe
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\bin\Debug\net6.0\metodosRetornamObjeto.deps.json
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\bin\Debug\net6.0\metodosRetornamObjeto.runtimeconfig.json
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\bin\Debug\net6.0\metodosRetornamObjeto.dll
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\bin\Debug\net6.0\metodosRetornamObjeto.pdb
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.AssemblyInfo.cs
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.dll
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\refint\metodosRetornamObjeto.dll
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.pdb
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\metodosRetornamObjeto.genruntimeconfig.cache
+C:\Users\danie\source\repos\metodosRetornamObjeto\metodosRetornamObjeto\obj\Debug\net6.0\ref\metodosRetornamObjeto.dll
