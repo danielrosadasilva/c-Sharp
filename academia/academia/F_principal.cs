@@ -11,6 +11,20 @@ namespace academia
             
            
         }
-        
+
+        private void entrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_login f_login=new F_login(this);
+            f_login.ShowDialog();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lb_acesso.Text = "0";
+            lb_usuario.Text = "...";   
+            pb_logado.Image = Properties.Resources.vermelho;
+            Globais.nivel =0 ;
+            Globais.logado = false;
+        }
     }
 }
