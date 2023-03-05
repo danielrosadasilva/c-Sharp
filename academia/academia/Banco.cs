@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SQLite;
 using System.Linq.Expressions;
+using System.Data.SqlClient;
 
 namespace academia
 {
@@ -60,6 +61,62 @@ namespace academia
                 conexaoBanco().Close();
                 throw e;
             }
+        }
+        //// Cadastro Usuario\\\\\
+        public static void novoUsuario(Usuario u)
+        {
+            if (existeUsername(u))
+            {
+                MessageBox.Show("Username já Existe");
+                return;
+            }
+            else
+            {
+
+                try
+                {
+
+                    var cmd = conexaoBanco().CreateCommand();
+                    cmd.CommandText = "INSERT INTO tb_usuarios(T_NOMEUSUARIO,T_USERNAME,T_PASSWORD,T_STATUSUSUARIO,N_NIVELUSUARIO) VALUES(@nome,@username,@password,@status,@nivel)";
+                    cmd.Parameters.AddWithValue("@nome", u.nome);
+                    cmd.Parameters.AddWithValue("@username", u.username);
+                    cmd.Parameters.AddWithValue("@password", u.senha);
+                    cmd.Parameters.AddWithValue("@status", u.status);
+                    cmd.Parameters.AddWithValue("@nivel", u.nivel);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Novo Usuario Inserido com Sucesso!");
+                    conexaoBanco().Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("erro");
+                    conexaoBanco().Close();
+                }
+            }
+        }
+
+        ////Rotinas Gerais\\\\
+        public static bool existeUsername(Usuario u)
+        {
+            
+            bool res;
+            SQLiteDataAdapter ad = null;
+            DataTable dt=new DataTable();
+            var cmd=conexaoBanco().CreateCommand();
+            cmd.CommandText = "SELECT T_USERNAME FROM tb_usuarios WHERE T_USERNAME='"+u.username+"'";
+            ad = new SQLiteDataAdapter(cmd.CommandText, conexaoBanco());
+            ad.Fill(dt);
+         
+            if (dt.Rows.Count > 0)      
+            {
+                res = true;              
+            }
+            else
+            {
+                res = false;                
+            }
+
+            return res;
         }
     }
 }

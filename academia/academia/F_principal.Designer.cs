@@ -38,6 +38,13 @@
             this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bancoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestãoDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manutençãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_logado)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -106,7 +113,10 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginToolStripMenuItem});
+            this.loginToolStripMenuItem,
+            this.bancoToolStripMenuItem,
+            this.usuariosToolStripMenuItem,
+            this.manutençãoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(403, 24);
@@ -125,16 +135,68 @@
             // entrarToolStripMenuItem
             // 
             this.entrarToolStripMenuItem.Name = "entrarToolStripMenuItem";
-            this.entrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.entrarToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.entrarToolStripMenuItem.Text = "Entrar";
             this.entrarToolStripMenuItem.Click += new System.EventHandler(this.entrarToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // bancoToolStripMenuItem
+            // 
+            this.bancoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.novoAlunoToolStripMenuItem,
+            this.gestãoToolStripMenuItem});
+            this.bancoToolStripMenuItem.Name = "bancoToolStripMenuItem";
+            this.bancoToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.bancoToolStripMenuItem.Text = "Alunos";
+            // 
+            // novoAlunoToolStripMenuItem
+            // 
+            this.novoAlunoToolStripMenuItem.Name = "novoAlunoToolStripMenuItem";
+            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
+            this.novoAlunoToolStripMenuItem.Click += new System.EventHandler(this.novoAlunoToolStripMenuItem_Click);
+            // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestãoDeUsuariosToolStripMenuItem});
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            // 
+            // gestãoDeUsuariosToolStripMenuItem
+            // 
+            this.gestãoDeUsuariosToolStripMenuItem.Name = "gestãoDeUsuariosToolStripMenuItem";
+            this.gestãoDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.gestãoDeUsuariosToolStripMenuItem.Text = "Gestão de Usuarios";
+            this.gestãoDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.gestãoDeUsuariosToolStripMenuItem_Click);
+            // 
+            // manutençãoToolStripMenuItem
+            // 
+            this.manutençãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bancoDeDadosToolStripMenuItem});
+            this.manutençãoToolStripMenuItem.Name = "manutençãoToolStripMenuItem";
+            this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
+            this.manutençãoToolStripMenuItem.Text = "Manutenção";
+            // 
+            // bancoDeDadosToolStripMenuItem
+            // 
+            this.bancoDeDadosToolStripMenuItem.Name = "bancoDeDadosToolStripMenuItem";
+            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.bancoDeDadosToolStripMenuItem.Text = "Banco de Dados";
+            this.bancoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.bancoDeDadosToolStripMenuItem_Click);
+            // 
+            // gestãoToolStripMenuItem
+            // 
+            this.gestãoToolStripMenuItem.Name = "gestãoToolStripMenuItem";
+            this.gestãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestãoToolStripMenuItem.Text = "Gestão de Usuarios";
             // 
             // F_principal
             // 
@@ -168,5 +230,12 @@
         private ToolStripMenuItem loginToolStripMenuItem;
         private ToolStripMenuItem entrarToolStripMenuItem;
         private ToolStripMenuItem sairToolStripMenuItem;
+        private ToolStripMenuItem bancoToolStripMenuItem;
+        private ToolStripMenuItem novoAlunoToolStripMenuItem;
+        private ToolStripMenuItem usuariosToolStripMenuItem;
+        private ToolStripMenuItem gestãoDeUsuariosToolStripMenuItem;
+        private ToolStripMenuItem manutençãoToolStripMenuItem;
+        private ToolStripMenuItem bancoDeDadosToolStripMenuItem;
+        private ToolStripMenuItem gestãoToolStripMenuItem;
     }
 }

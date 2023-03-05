@@ -32,3 +32,4 @@ C:\Users\danie\source\repos\academia\academia\obj\Debug\net6.0-windows\refint\ac
 C:\Users\danie\source\repos\academia\academia\obj\Debug\net6.0-windows\academia.pdb
 C:\Users\danie\source\repos\academia\academia\obj\Debug\net6.0-windows\academia.genruntimeconfig.cache
 C:\Users\danie\source\repos\academia\academia\obj\Debug\net6.0-windows\ref\academia.dll
+C:\Users\danie\source\repos\academia\academia\obj\Debug\net6.0-windows\academia.F_usuario.resources

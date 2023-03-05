@@ -28,6 +28,8 @@ namespace academia
             if(username=="" || password == "")
             {
                 MessageBox.Show("Campos Invalidos");
+                tb_passord.Clear();
+                tb_username.Clear();
                 tb_username.Focus();
                 return;
             }
@@ -44,7 +46,11 @@ namespace academia
             }
             else
             {
+                tb_passord.Clear();
+                tb_username.Clear();
+                tb_username.Focus();
                 MessageBox.Show("usuario não encontrado");
+
             }
         }
          
