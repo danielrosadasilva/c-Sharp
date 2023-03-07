@@ -22,7 +22,7 @@ namespace academia
             tb_nome.Clear();
             tb_senha.Clear();
             tb_username.Clear();
-            n_nivel.Value = decimal.MinValue;
+            n_nivel.Value = Convert.ToDecimal(1);
             tb_nome.Focus();
         }
 

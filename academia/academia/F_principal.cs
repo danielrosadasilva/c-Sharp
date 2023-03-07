@@ -95,5 +95,25 @@ namespace academia
                 MessageBox.Show("Precisa está Logado");
             }
         }
+
+        private void gestãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.logado)
+            {
+                if (Globais.nivel >= 3)
+                {
+                    F_gestaoUsuario f_GestaoUsuario = new F_gestaoUsuario();
+                    f_GestaoUsuario.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Acesso Não Permitido");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Precisa está Logado");
+            }
+        }
     }
 }
