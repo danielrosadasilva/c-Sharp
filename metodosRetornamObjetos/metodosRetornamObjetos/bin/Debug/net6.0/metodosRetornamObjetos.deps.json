@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "metodosRetornamObjetos/1.0.0": {
+        "runtime": {
+          "metodosRetornamObjetos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "metodosRetornamObjetos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
