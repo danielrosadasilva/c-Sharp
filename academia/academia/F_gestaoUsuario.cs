@@ -42,5 +42,42 @@ namespace academia
             }
            
         }
+
+        private void bt_salvar_Click(object sender, EventArgs e)
+        {
+           
+            int linha = dgv_gestaoUsuario.Rows[0].Index;            //capturar a linha selecionada
+            Usuario u=new Usuario();
+            u.id =Convert.ToInt32( tb_id.Text);
+            u.nome=tb_nome.Text;
+            u.username=tb_username.Text;
+            u.senha=tb_senha.Text;
+            u.status = cb_status.Text;
+            u.nivel =Convert.ToInt32(Math.Round( n_nivel.Value,0));
+            Banco.atualizarUsuario(u);
+            //dgv_gestaoUsuario.DataSource = Banco.obterUsuariosIdNome(); 
+            //dgv_gestaoUsuario.CurrentCell = dgv_gestaoUsuario[0, linha];
+            dgv_gestaoUsuario.CurrentCell.Value=tb_nome.Text;    //essa forma evita de recarregar novamente o metodo obter usuarios
+
+        }
+
+        private void bt_novo_Click(object sender, EventArgs e)
+        {
+            F_usuario f_Usuario = new F_usuario();
+            f_Usuario.ShowDialog();
+            dgv_gestaoUsuario.DataSource = Banco.obterUsuariosIdNome();
+
+        }
+
+        private void bt_excluir_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("Confirma Exclusão?", "Excluir", MessageBoxButtons.YesNo);
+            if(res == DialogResult.Yes)
+            {
+                Banco.excluirUsuario(tb_id.Text);
+                dgv_gestaoUsuario.Rows.Remove(dgv_gestaoUsuario.CurrentRow);
+            }
+            
+        }
     }
 }

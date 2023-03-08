@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -45,7 +45,7 @@
             this.tb_id = new System.Windows.Forms.TextBox();
             this.ID = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bt_cancelar = new System.Windows.Forms.Button();
+            this.bt_excluir = new System.Windows.Forms.Button();
             this.bt_salvar = new System.Windows.Forms.Button();
             this.bt_novo = new System.Windows.Forms.Button();
             this.dgv_gestaoUsuario = new System.Windows.Forms.DataGridView();
@@ -200,7 +200,7 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.bt_cancelar);
+            this.panel1.Controls.Add(this.bt_excluir);
             this.panel1.Controls.Add(this.bt_salvar);
             this.panel1.Controls.Add(this.bt_novo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -209,14 +209,15 @@
             this.panel1.Size = new System.Drawing.Size(617, 27);
             this.panel1.TabIndex = 28;
             // 
-            // bt_cancelar
+            // bt_excluir
             // 
-            this.bt_cancelar.Location = new System.Drawing.Point(257, 0);
-            this.bt_cancelar.Name = "bt_cancelar";
-            this.bt_cancelar.Size = new System.Drawing.Size(105, 26);
-            this.bt_cancelar.TabIndex = 5;
-            this.bt_cancelar.Text = "Excluir Usuario";
-            this.bt_cancelar.UseVisualStyleBackColor = true;
+            this.bt_excluir.Location = new System.Drawing.Point(257, 0);
+            this.bt_excluir.Name = "bt_excluir";
+            this.bt_excluir.Size = new System.Drawing.Size(105, 26);
+            this.bt_excluir.TabIndex = 5;
+            this.bt_excluir.Text = "Excluir Usuario";
+            this.bt_excluir.UseVisualStyleBackColor = true;
+            this.bt_excluir.Click += new System.EventHandler(this.bt_excluir_Click);
             // 
             // bt_salvar
             // 
@@ -226,6 +227,7 @@
             this.bt_salvar.TabIndex = 4;
             this.bt_salvar.Text = "Salvar Alterações";
             this.bt_salvar.UseVisualStyleBackColor = true;
+            this.bt_salvar.Click += new System.EventHandler(this.bt_salvar_Click);
             // 
             // bt_novo
             // 
@@ -235,19 +237,20 @@
             this.bt_novo.TabIndex = 3;
             this.bt_novo.Text = "Novo Usuario";
             this.bt_novo.UseVisualStyleBackColor = true;
+            this.bt_novo.Click += new System.EventHandler(this.bt_novo_Click);
             // 
             // dgv_gestaoUsuario
             // 
             this.dgv_gestaoUsuario.AllowUserToAddRows = false;
             this.dgv_gestaoUsuario.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_gestaoUsuario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_gestaoUsuario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_gestaoUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_gestaoUsuario.EnableHeadersVisualStyles = false;
             this.dgv_gestaoUsuario.Location = new System.Drawing.Point(292, 24);
@@ -316,7 +319,7 @@
         private TextBox tb_id;
         private Label ID;
         private Panel panel1;
-        private Button bt_cancelar;
+        private Button bt_excluir;
         private Button bt_salvar;
         private Button bt_novo;
         private DataGridView dgv_gestaoUsuario;

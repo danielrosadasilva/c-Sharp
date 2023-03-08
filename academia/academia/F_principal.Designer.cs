@@ -37,7 +37,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btn_sair = new System.Windows.Forms.ToolStripMenuItem();
             this.bancoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -127,7 +127,7 @@
             // 
             this.loginToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entrarToolStripMenuItem,
-            this.sairToolStripMenuItem});
+            this.btn_sair});
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
             this.loginToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.loginToolStripMenuItem.Text = "Login";
@@ -135,16 +135,17 @@
             // entrarToolStripMenuItem
             // 
             this.entrarToolStripMenuItem.Name = "entrarToolStripMenuItem";
-            this.entrarToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.entrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.entrarToolStripMenuItem.Text = "Entrar";
             this.entrarToolStripMenuItem.Click += new System.EventHandler(this.entrarToolStripMenuItem_Click);
             // 
-            // sairToolStripMenuItem
+            // btn_sair
             // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            this.btn_sair.Enabled = false;
+            this.btn_sair.Name = "btn_sair";
+            this.btn_sair.Size = new System.Drawing.Size(180, 22);
+            this.btn_sair.Text = "Sair";
+            this.btn_sair.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // bancoToolStripMenuItem
             // 
@@ -158,14 +159,14 @@
             // novoAlunoToolStripMenuItem
             // 
             this.novoAlunoToolStripMenuItem.Name = "novoAlunoToolStripMenuItem";
-            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
             this.novoAlunoToolStripMenuItem.Click += new System.EventHandler(this.novoAlunoToolStripMenuItem_Click);
             // 
             // gestãoToolStripMenuItem
             // 
             this.gestãoToolStripMenuItem.Name = "gestãoToolStripMenuItem";
-            this.gestãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestãoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.gestãoToolStripMenuItem.Text = "Gestão de Usuarios";
             this.gestãoToolStripMenuItem.Click += new System.EventHandler(this.gestãoToolStripMenuItem_Click);
             // 
@@ -180,7 +181,7 @@
             // gestãoDeUsuariosToolStripMenuItem
             // 
             this.gestãoDeUsuariosToolStripMenuItem.Name = "gestãoDeUsuariosToolStripMenuItem";
-            this.gestãoDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestãoDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.gestãoDeUsuariosToolStripMenuItem.Text = "Gestão de Usuarios";
             this.gestãoDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.gestãoDeUsuariosToolStripMenuItem_Click);
             // 
@@ -230,7 +231,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem loginToolStripMenuItem;
         private ToolStripMenuItem entrarToolStripMenuItem;
-        private ToolStripMenuItem sairToolStripMenuItem;
         private ToolStripMenuItem bancoToolStripMenuItem;
         private ToolStripMenuItem novoAlunoToolStripMenuItem;
         private ToolStripMenuItem usuariosToolStripMenuItem;
@@ -238,5 +238,6 @@
         private ToolStripMenuItem manutençãoToolStripMenuItem;
         private ToolStripMenuItem bancoDeDadosToolStripMenuItem;
         private ToolStripMenuItem gestãoToolStripMenuItem;
+        public ToolStripMenuItem btn_sair;
     }
 }

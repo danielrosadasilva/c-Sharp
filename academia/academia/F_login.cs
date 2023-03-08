@@ -21,6 +21,7 @@ namespace academia
             form1 = f;
         }
 
+
         private void bt_entrar_Click(object sender, EventArgs e)
         {
             string username=tb_username.Text;
@@ -42,6 +43,7 @@ namespace academia
                 form1.pb_logado.Image = Properties.Resources.verde;
                 Globais.nivel = int.Parse(dt.Rows[0].Field<Int64>("N_NIVELUSUARIO").ToString());
                 Globais.logado = true;
+                form1.btn_sair.Enabled = true;
                 this.Close();
             }
             else

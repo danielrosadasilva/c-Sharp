@@ -143,6 +143,50 @@ namespace academia
             }
 
         }
+        public static void atualizarUsuario(Usuario u)
+        {
+            SQLiteDataAdapter ad = null;
+            DataTable dt = new DataTable();
+            var vcon = conexaoBanco();
+            try
+            {
+                var cmd = vcon.CreateCommand();
+                {
+                    cmd.CommandText = "UPDATE tb_usuarios SET T_NOMEUSUARIO='"+u.nome+"',T_USERNAME='"+u.username+"',T_PASSWORD='"+u.senha+"',T_STATUSUSUARIO='"+u.status+"',N_NIVELUSUARIO="+u.nivel+" WHERE N_IDUSUARIO="+u.id;
+                    ad = new SQLiteDataAdapter(cmd.CommandText, vcon);
+                    cmd.ExecuteNonQuery();
+                    vcon.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                vcon.Close();
+                throw e;
+            }
+
+        }
+        public static void excluirUsuario(string id)
+        {
+            SQLiteDataAdapter ad = null;
+            DataTable dt = new DataTable();
+            var vcon = conexaoBanco();
+            try
+            {
+                var cmd = vcon.CreateCommand();
+                {
+                    cmd.CommandText = "DELETE FROM tb_usuarios WHERE N_IDUSUARIO="+id;
+                    ad = new SQLiteDataAdapter(cmd.CommandText, vcon);
+                    cmd.ExecuteNonQuery();
+                    vcon.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                vcon.Close();
+                throw e;
+            }
+
+        }
         ////Rotinas Gerais\\\\
         public static bool existeUsername(Usuario u)
         {
