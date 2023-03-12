@@ -34,6 +34,7 @@
             this.tb_passord = new System.Windows.Forms.TextBox();
             this.bt_entrar = new System.Windows.Forms.Button();
             this.bt_cancelar = new System.Windows.Forms.Button();
+            this.cb_mostrarsenha = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -71,7 +72,7 @@
             // 
             // bt_entrar
             // 
-            this.bt_entrar.Location = new System.Drawing.Point(128, 198);
+            this.bt_entrar.Location = new System.Drawing.Point(128, 233);
             this.bt_entrar.Name = "bt_entrar";
             this.bt_entrar.Size = new System.Drawing.Size(75, 23);
             this.bt_entrar.TabIndex = 4;
@@ -81,7 +82,7 @@
             // 
             // bt_cancelar
             // 
-            this.bt_cancelar.Location = new System.Drawing.Point(128, 238);
+            this.bt_cancelar.Location = new System.Drawing.Point(128, 262);
             this.bt_cancelar.Name = "bt_cancelar";
             this.bt_cancelar.Size = new System.Drawing.Size(75, 23);
             this.bt_cancelar.TabIndex = 5;
@@ -89,11 +90,23 @@
             this.bt_cancelar.UseVisualStyleBackColor = true;
             this.bt_cancelar.Click += new System.EventHandler(this.bt_cancelar_Click);
             // 
+            // cb_mostrarsenha
+            // 
+            this.cb_mostrarsenha.AutoSize = true;
+            this.cb_mostrarsenha.Location = new System.Drawing.Point(120, 186);
+            this.cb_mostrarsenha.Name = "cb_mostrarsenha";
+            this.cb_mostrarsenha.Size = new System.Drawing.Size(102, 19);
+            this.cb_mostrarsenha.TabIndex = 6;
+            this.cb_mostrarsenha.Text = "Mostrar Senha";
+            this.cb_mostrarsenha.UseVisualStyleBackColor = true;
+            this.cb_mostrarsenha.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // F_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(317, 297);
+            this.Controls.Add(this.cb_mostrarsenha);
             this.Controls.Add(this.bt_cancelar);
             this.Controls.Add(this.bt_entrar);
             this.Controls.Add(this.tb_passord);
@@ -118,5 +131,6 @@
         private TextBox tb_passord;
         private Button bt_entrar;
         private Button bt_cancelar;
+        private CheckBox cb_mostrarsenha;
     }
 }

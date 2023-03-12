@@ -60,5 +60,17 @@ namespace academia
         {
             this.Close();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cb_mostrarsenha.Checked)
+            {
+                tb_passord.PasswordChar = '\0';
+            }
+            else
+            {
+                tb_passord.PasswordChar = '*';
+            }
+        }
     }
 }
