@@ -41,13 +41,14 @@
             this.btn_sair = new System.Windows.Forms.ToolStripMenuItem();
             this.bancoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestaoAlunosMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestãoDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manutençãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.horariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_logado)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -156,7 +157,7 @@
             // 
             this.bancoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.novoAlunoToolStripMenuItem,
-            this.gestãoToolStripMenuItem});
+            this.gestaoAlunosMenuItem});
             this.bancoToolStripMenuItem.Name = "bancoToolStripMenuItem";
             this.bancoToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.bancoToolStripMenuItem.Text = "Alunos";
@@ -164,16 +165,16 @@
             // novoAlunoToolStripMenuItem
             // 
             this.novoAlunoToolStripMenuItem.Name = "novoAlunoToolStripMenuItem";
-            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.novoAlunoToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.novoAlunoToolStripMenuItem.Text = "Novo Aluno";
             this.novoAlunoToolStripMenuItem.Click += new System.EventHandler(this.novoAlunoToolStripMenuItem_Click);
             // 
-            // gestãoToolStripMenuItem
+            // gestaoAlunosMenuItem
             // 
-            this.gestãoToolStripMenuItem.Name = "gestãoToolStripMenuItem";
-            this.gestãoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.gestãoToolStripMenuItem.Text = "Gestão de Usuarios";
-            this.gestãoToolStripMenuItem.Click += new System.EventHandler(this.gestãoToolStripMenuItem_Click);
+            this.gestaoAlunosMenuItem.Name = "gestaoAlunosMenuItem";
+            this.gestaoAlunosMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.gestaoAlunosMenuItem.Text = "Gestão de Alunos";
+            this.gestaoAlunosMenuItem.Click += new System.EventHandler(this.gestaoAlunosMenuItem_Click);
             // 
             // usuariosToolStripMenuItem
             // 
@@ -193,7 +194,8 @@
             // manutençãoToolStripMenuItem
             // 
             this.manutençãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bancoDeDadosToolStripMenuItem});
+            this.bancoDeDadosToolStripMenuItem,
+            this.horariosToolStripMenuItem});
             this.manutençãoToolStripMenuItem.Name = "manutençãoToolStripMenuItem";
             this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.manutençãoToolStripMenuItem.Text = "Manutenção";
@@ -201,7 +203,7 @@
             // bancoDeDadosToolStripMenuItem
             // 
             this.bancoDeDadosToolStripMenuItem.Name = "bancoDeDadosToolStripMenuItem";
-            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bancoDeDadosToolStripMenuItem.Text = "Banco de Dados";
             this.bancoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.bancoDeDadosToolStripMenuItem_Click);
             // 
@@ -223,6 +225,13 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(596, 346);
             this.panel2.TabIndex = 3;
+            // 
+            // horariosToolStripMenuItem
+            // 
+            this.horariosToolStripMenuItem.Name = "horariosToolStripMenuItem";
+            this.horariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.horariosToolStripMenuItem.Text = "Horarios";
+            this.horariosToolStripMenuItem.Click += new System.EventHandler(this.horariosToolStripMenuItem_Click);
             // 
             // F_principal
             // 
@@ -264,9 +273,10 @@
         private ToolStripMenuItem gestãoDeUsuariosToolStripMenuItem;
         private ToolStripMenuItem manutençãoToolStripMenuItem;
         private ToolStripMenuItem bancoDeDadosToolStripMenuItem;
-        private ToolStripMenuItem gestãoToolStripMenuItem;
+        private ToolStripMenuItem gestaoAlunosMenuItem;
         public ToolStripMenuItem btn_sair;
         private PictureBox pictureBox1;
         private Panel panel2;
+        private ToolStripMenuItem horariosToolStripMenuItem;
     }
 }

@@ -12,6 +12,24 @@ namespace academia
             
            
         }
+        private void abreForm(int nivel, Form f)
+        {
+            if (Globais.logado)
+            {
+                if (Globais.nivel >= nivel)
+                {
+                    f.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Acesso Não Permitido");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Precisa está Logado");
+            }
+        }
 
         private void entrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -42,81 +60,30 @@ namespace academia
 
         private void bancoDeDadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Globais.logado)
-            {
-                if(Globais.nivel >= 3)
-                {
-                    //
-                }
-                else
-                {
-                    MessageBox.Show("Acesso Não Permitido");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Precisa está Logado");
-            }
+            //abreForm();
         }
 
         private void gestãoDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Globais.logado)
-            {
-                if (Globais.nivel >= 3)
-                {
-                    //
-                }
-                else
-                {
-                    MessageBox.Show("Acesso Não Permitido");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Precisa está Logado");
-            }
+             F_gestaoUsuario f_GestaoUsuario = new F_gestaoUsuario();
+             abreForm(3, f_GestaoUsuario);
+
         }
 
         private void novoAlunoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Globais.logado)
-            {
-                if (Globais.nivel >= 1)
-                {
-                    F_usuario  f_Usuario = new F_usuario();
-                    f_Usuario.ShowDialog();
-
-                }
-                else
-                {
-                    MessageBox.Show("Acesso Não Permitido");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Precisa está Logado");
-            }
+             F_usuario  f_Usuario = new F_usuario();
+             abreForm(1, f_Usuario);
+        }
+        private void gestaoAlunosMenuItem_Click(object sender, EventArgs e)
+        {
+          
         }
 
-        private void gestãoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void horariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Globais.logado)
-            {
-                if (Globais.nivel >= 3)
-                {
-                    F_gestaoUsuario f_GestaoUsuario = new F_gestaoUsuario();
-                    f_GestaoUsuario.ShowDialog();
-                }
-                else
-                {
-                    MessageBox.Show("Acesso Não Permitido");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Precisa está Logado");
-            }
+            F_horarios f_Horarios=new F_horarios();
+            abreForm(2, f_Horarios);
         }
     }
 }

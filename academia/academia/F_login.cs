@@ -35,7 +35,7 @@ namespace academia
                 return;
             }
             string sql = "SELECT * FROM TB_USUARIOS WHERE T_USERNAME='" + username + "'AND T_PASSWORD='" + password+"'" ;
-            dt = Banco.consulta(sql);
+            dt = Banco.dql(sql);
             if(dt.Rows.Count == 1)
             {
                 form1.lb_acesso.Text = dt.Rows[0].ItemArray[5].ToString();      

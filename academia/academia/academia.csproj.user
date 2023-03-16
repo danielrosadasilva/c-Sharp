@@ -4,6 +4,9 @@
     <Compile Update="F_gestaoUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="F_horarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="F_principal.cs">
       <SubType>Form</SubType>
     </Compile>
